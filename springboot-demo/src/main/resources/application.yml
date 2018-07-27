@@ -1,0 +1,13 @@
+#properties
+#Cambia el puerto de inicio
+#server.port=8082
+#Cambia el nombre de la pag
+#server.servlet.context-path=/demo/spring
+server:
+  port: 8082
+  servlet:
+    context-path: /demo/spring
+    
+demo:
+  spring:
+    nombre: Demo Spring Boot
